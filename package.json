@@ -1,0 +1,29 @@
+{
+  "name": "dctb-npm-js-bundle",
+  "version": "1.0.0",
+  "description": "Just a simple example how to use npm with JavaScript to bundle unique app file with Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/webpack/bin/webpack.js",
+    "start": "httpserver --port=8090"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogocezar/dctb-npm-js-bundle.git"
+  },
+  "keywords": [],
+  "author": "Diogo Cezar <diogo@diogocezar.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogocezar/dctb-npm-js-bundle/issues"
+  },
+  "homepage": "https://github.com/diogocezar/dctb-npm-js-bundle#readme",
+  "devDependencies": {
+    "httpserver": "0.3.0",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
